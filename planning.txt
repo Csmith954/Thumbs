@@ -1,0 +1,31 @@
+Thumbs project will print out a thumbs up or thumbs down based on the binary conversion of a word or phrase that's passed
+in by the user.
+
+---------------------
+Class : Application
+
+Methods:
+run()
+    will take the input and convert to char array and then convert the char to ASCII and then the ASCII value to binary
+    conver the binary to the correct emojii and out put to user
+
+-----------------------
+Class : UserInput
+
+Variables:
+Scanner userInput
+String userString
+
+Methods:
+getString()
+    gets a string from the user
+
+getCipher()
+    convets the string into the binary > light Thumbs
+
+-------------------------
+Class UserOutput
+
+Methods:
+getHomePage()
+    displays welcome message to user and prompts for the user to enter a String
